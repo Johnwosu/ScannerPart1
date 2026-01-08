@@ -6,8 +6,9 @@
             //declare new variables:
             System.out.print("Enter the emp name: ");
             String empName = sc.nextLine();
-            double salary = 1000;
+//            double salary = 1000;
             System.out.println("Enter your salary: ");
+            double salary = sc.nextDouble();
             double tax = 0.25;
             double netSalary = salary * (1 - tax);
             System.out.println("The net salary for: " + empName + " is: $" + netSalary);
